@@ -1,0 +1,28 @@
+{
+	"name": "tables",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "fragment sketch.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "^11.8.0",
+			"onFail": "download"
+		}
+	},
+	"type": "module",
+	"dependencies": {
+		"@dimforge/rapier3d": "^0.21.0",
+		"@dimforge/rapier3d-compat": "^0.21.0",
+		"@types/three": "^0.186.0",
+		"postprocessing": "^6.39.5",
+		"three": "^0.186.1"
+	}
+}
