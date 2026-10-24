@@ -294,4 +294,5 @@ export const rendering: Rendering = "three";
 export const buildConfig = {
 	resizing: "window",
 	gui: false,
+	pixelRatio: () => window.devicePixelRatio,
 };
