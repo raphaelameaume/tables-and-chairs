@@ -292,5 +292,6 @@ export const resize: Resize<"three"> = ({
 
 export const rendering: Rendering = "three";
 export const buildConfig = {
+	resizing: "window",
 	gui: false,
 };
